@@ -1,0 +1,6 @@
+module ModuleComponentBase 
+{
+
+type component ComponentBase {}
+
+}

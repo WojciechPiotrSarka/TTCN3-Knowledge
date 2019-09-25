@@ -1,0 +1,11 @@
+module ModuleMain 
+{
+
+import from TestcasesDummy all;
+
+control
+{
+	execute(dummy_1());
+}
+
+}

@@ -1,0 +1,13 @@
+module TestcasesDummy 
+{
+
+import from ModuleComponentBase all;
+
+testcase dummy_1() 
+runs on ComponentBase 
+system ComponentBase 
+{
+	setverdict(pass);
+}
+
+}

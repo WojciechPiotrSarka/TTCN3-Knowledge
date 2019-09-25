@@ -1,0 +1,35 @@
+module TestcasesSimpleBasicTypes 
+{
+
+import from ModuleComponentBase all;
+
+testcase basic_type_integer() 
+runs on ComponentBase 
+system ComponentBase 
+{
+  	setverdict(pass);
+  	
+	var integer small_positive_number := 123;
+	var integer huge_positive_number  := 1234567890987654321;
+  
+	const integer zero := 0;
+	
+	var integer small_negative_number := -123;
+	var integer huge_negative_number  := -1234567890987654321;
+	
+	if(not(small_positive_number == -small_negative_number and
+	   	   huge_negative_number  == -huge_positive_number))
+	{
+		setverdict(fail);
+	}
+	
+	log("Small positive number : ", small_positive_number);
+	log("Small negative number : ", small_negative_number);
+	
+	log("Huge positive number : ", huge_positive_number);
+	log("Huge negative number : ", huge_negative_number);
+	
+	log("Zero : ", zero);
+}
+
+}

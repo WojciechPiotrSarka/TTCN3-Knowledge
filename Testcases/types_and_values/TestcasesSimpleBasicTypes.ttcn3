@@ -17,12 +17,6 @@ system ComponentBase
 	var integer small_negative_number := -123;
 	var integer huge_negative_number  := -1234567890987654321;
 	
-	if(not(small_positive_number == -small_negative_number and
-	   	   huge_negative_number  == -huge_positive_number))
-	{
-		setverdict(fail);
-	}
-	
 	log("Small positive number : ", small_positive_number);
 	log("Small negative number : ", small_negative_number);
 	

@@ -9,6 +9,7 @@ control
 {
 	execute(dummy_1());
 	
+	execute(basic_type_boolean());
 	execute(basic_type_integer());
 }
 

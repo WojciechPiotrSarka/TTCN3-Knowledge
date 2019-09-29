@@ -12,7 +12,7 @@ system ComponentBase
 	log("\nBasic Type: Boolean\n");
 	
     const boolean YES := true;
-    var   boolean NO  := false;
+    const boolean NO  := false;
 
 	log("Two possible values:", YES, ", ", NO);
 }

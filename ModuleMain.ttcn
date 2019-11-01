@@ -3,14 +3,9 @@ module ModuleMain
 
 import from TestcasesDummy all;
 
-import from TestcasesSimpleBasicTypes all;
-
 control
 {
 	execute(dummy_1());
-	
-	execute(basic_type_boolean());
-	execute(basic_type_integer());
 
 }
 

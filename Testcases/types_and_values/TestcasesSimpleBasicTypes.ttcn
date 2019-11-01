@@ -9,12 +9,12 @@ system ComponentBase
 {
 	setverdict(pass);
 	
-	log("\nBasic Type: Boolean\n");
+	log("Basic Type: Boolean");
 	
     const boolean YES := true;
     const boolean NO  := false;
 
-	log("Two possible values:", YES, ", ", NO);
+	log("Two possible values: ", YES, ", ", NO);
 }
 
 testcase basic_type_integer() 
@@ -23,7 +23,7 @@ system ComponentBase
 {
   	setverdict(pass);
   	
-  	log("\nBasic Type: Integer\n");
+  	log("Basic Type: Integer");
   	log("Possible values: whole positive/negative numbers and zero");
   	
 	var integer small_positive_number := 123;
